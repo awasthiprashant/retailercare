@@ -1,5 +1,5 @@
 <?php
-
+// comment by prashant
 class LotteryUtilities {
 
     function GetDrawDate($lotcode, $curdate, $connection) {
