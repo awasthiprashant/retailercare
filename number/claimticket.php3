@@ -1,5 +1,4 @@
 <?
-//exit("Error-Please Claim After Some Time ");
 /*
  * $debug = 10;    For Backoffice View  
  * $debug = 11;    For Admin View
@@ -15,7 +14,10 @@ if(!isset($_REQUEST['bcode'])  || strlen($_REQUEST['bcode'])<13)
 $CLAIMDEBUG = 0;   
 if(isset($_REQUEST['debug']) && $_REQUEST['debug']>=10)
     $CLAIMDEBUG = $_REQUEST['debug'];
+/*
+This is new option for claim ticket
 
+*/
 
 require_once 'connection.php';
 require_once 'LotteryUtilities.php';
