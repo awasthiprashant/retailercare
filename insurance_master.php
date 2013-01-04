@@ -1,5 +1,6 @@
 <?
-//comment 04/01/2013
+//comment 04/01/2013 
+//new comment 04/01/2013 
 if(!isset($_POST['info']) ||!isset($_POST['agentcode']))
 	exit("Error-Required Data Missing");
 require_once "connection.php";
